@@ -18,7 +18,7 @@ public class NavObject : MonoBehaviour
             this.gameObject.GetComponent<Renderer>().enabled = false;
         }
         
-}
+    }
    
     private void OnTriggerEnter(Collider other)
     {

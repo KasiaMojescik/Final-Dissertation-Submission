@@ -27,16 +27,18 @@ public class CollectorController : MonoBehaviour
     float playedTime;
     public Text time;
 
+    // this method is called at the beginning of each trial
     void Start()
     {
+        // set text fields to their initial values
         SetTextFields();
 
-        // activating first arrow and first PickUp object
+        // activating the first cue
         if (cueHolder != null)
         {
-            ActivateArrows();
+            ActivateCues();
         }
-
+        // activating the first PickUp object
         if (pickupHolder != null)
         {
             ActivatePickups();
@@ -45,13 +47,13 @@ public class CollectorController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // to fix the CollectorObject in right position
+        // fix the CollectorObject in right position by preventing its rotation
         transform.eulerAngles = Vector3.zero;
-        // for measurement of the time
+        // add time since last update to the total playedTime
         playedTime += Time.deltaTime;
-        // for measurement of the distance walked
+        // add distance between current position and position at last update
         distanceTravelled += Vector3.Distance(transform.position, lastPosition);
-        // to measure most recent position
+        // set the lastPosition to the current position
         lastPosition = transform.position;
         // if the participants take longer than 3 minutes on the maze, 
         // the trial is considered unsuccessful
@@ -76,18 +78,23 @@ public class CollectorController : MonoBehaviour
     // activate first Pick Up object
     void ActivatePickups()
     {
+        // check the number of children objects in the Unity hierarchy
         numberOfPickups = pickupHolder.childCount;
+        // get the child at the current index, which is 0
         Transform currentChild = pickupHolder.GetChild(currentPickupIndex);
+        // set the first child (Pick Up) to active
         currentChild.gameObject.SetActive(true);
     }
 
     // activate first cue
-    void ActivateArrows()
+    void ActivateCues()
     {
+        // check the number of children objects in the Unity hierarchy
         numberOfCues = cueHolder.childCount;
+        // get the child at the current index, which is 0
         Transform currentChild = cueHolder.GetChild(currentCueIndex);
+        // set the first child (of the CueHolder) to active
         currentChild.gameObject.SetActive(true);
-
     }
 
 

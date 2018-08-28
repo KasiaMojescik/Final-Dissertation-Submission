@@ -12,22 +12,24 @@ public class CoroutineManager : MonoBehaviour {
     // called when the instance awakes in the programme
     void Awake()
     {
+        // if the instance of AudioManager already exists, destroy it
         if (instance != null)
         {
             Destroy(gameObject);
         }
         else
         {
-            //set the static reference to the newly initialized instance
+            // set the static reference to the newly initialized instance
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
     }
 
-    //length is how long the vibration should go for
-    //strength is vibration strength from 0-1
-
-    public IEnumerator LongVibrationLeft(float length, float strength)
+    // this method activates vibrations in controller2
+    // it activates them in the left controller because controller2 is set to left in Unity
+    // length is how long the vibration should go for
+    // strength is vibration strength from 0-1
+    public IEnumerator LongVibrationController2(float length, float strength)
     {
         for (float i = 0; i < length; i += Time.deltaTime)
         {
@@ -37,7 +39,11 @@ public class CoroutineManager : MonoBehaviour {
         }
     }
 
-    public IEnumerator LongVibrationRight(float length, float strength)
+    // this method activates vibrations in controller1
+    // it activates them in the right controller because controller1 is set to right in Unity
+    // length is how long the vibration should go for
+    // strength is vibration strength from 0-1
+    public IEnumerator LongVibrationController1(float length, float strength)
     {
         for (float i = 0; i < length; i += Time.deltaTime)
         {
@@ -47,7 +53,9 @@ public class CoroutineManager : MonoBehaviour {
         }
     }
 
-    // method to trigger vibration in both controllers
+    // method to called in LongVibration method to trigger vibration in both controllers
+    // length is how long the vibration should go for
+    // strength is vibration strength from 0-1
     public IEnumerator LongVibrationBoth(float length, float strength)
     {
         for (float i = 0; i < length; i += Time.deltaTime)
@@ -59,17 +67,22 @@ public class CoroutineManager : MonoBehaviour {
         }
     }
 
-    // This method is used for the turn around command, which consists of 2 subsequent vibrations. 
-    //vibrationCount is how many vibrations
-    //vibrationLength is how long each vibration should go for
-    //gapLength is how long to wait between vibrations
-    //strength is vibration strength from 0-1
+    // This method is used for the straight and turn around command
+    // straight consists of a single vibration in both controllers
+    // turn around consists of 2 subsequent vibrations. 
+    // vibrationCount is how many vibrations should be activated subsequently
+    // vibrationLength is how long each vibration last
+    // gapLength is how long to wait between vibrations
+    // strength is vibration strength from 0-1
     public IEnumerator LongVibration(int vibrationCount, float vibrationLength, float gapLength, float strength)
     {
         strength = Mathf.Clamp01(strength);
+        // repeat as many times as you want the controllers to vibrate
         for (int i = 0; i < vibrationCount; i++)
         {
+            // if there is two or more vibrations, wait gapLength after the first vibration
             if (i != 0) yield return new WaitForSeconds(gapLength);
+            // vibrate in both controllers
             yield return StartCoroutine(LongVibrationBoth(vibrationLength, strength));
         }
     }

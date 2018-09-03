@@ -161,7 +161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &9430376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -222,7 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &9430380
@@ -606,7 +605,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &109640991
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -667,7 +665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &109640995
@@ -1080,7 +1078,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &333408635
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1141,7 +1138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &333408639
@@ -1648,7 +1645,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &476044350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1709,7 +1705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &476044354
@@ -2143,7 +2139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &574189333
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2204,7 +2199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &574189337
@@ -2335,7 +2330,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &612880170
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2396,7 +2390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &612880174
@@ -2491,7 +2485,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &656542419
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2552,7 +2545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &656542423
@@ -2647,7 +2640,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &656584323
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2708,7 +2700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 0
 --- !u!23 &656584327
@@ -2887,7 +2879,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &757094320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2948,7 +2939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 0
 --- !u!23 &757094324
@@ -3043,7 +3034,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &761077055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3104,7 +3094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &761077059
@@ -3395,7 +3385,7 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 786449698}
-  m_Mesh: {fileID: 1473239198}
+  m_Mesh: {fileID: 827728248}
 --- !u!23 &786449702
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3411,7 +3401,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 966661032}
+  - {fileID: 1572569224}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3447,6 +3437,134 @@ MonoBehaviour:
   right: {fileID: 898287826}
   objects: []
   assignAllBeforeIdentified: 0
+--- !u!43 &827728248
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 13
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
 --- !u!1 &828141708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3756,7 +3874,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &920244160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3817,7 +3934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 0
 --- !u!23 &920244164
@@ -3943,7 +4060,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &930388507
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4004,7 +4120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &930388511
@@ -4099,7 +4215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &944773072
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4160,7 +4275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &944773076
@@ -4255,7 +4370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &955544303
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4316,7 +4430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &955544307
@@ -4362,39 +4476,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 955544300}
   m_Mesh: {fileID: 4300000, guid: fb62028e9547b0e4e9be1e5d68cbe591, type: 3}
---- !u!21 &966661032
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1008904321
 GameObject:
   m_ObjectHideFlags: 0
@@ -5035,7 +5116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1165931534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5096,7 +5176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1165931538
@@ -5659,7 +5739,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1434229248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5720,7 +5799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 0
 --- !u!23 &1434229252
@@ -5815,7 +5894,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1442631307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5876,7 +5954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1442631311
@@ -5922,134 +6000,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1442631304}
   m_Mesh: {fileID: 4300000, guid: fb62028e9547b0e4e9be1e5d68cbe591, type: 3}
---- !u!43 &1473239198
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0.01, z: 0}
-      m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 13
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 288
-    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0.01, z: 0}
-    m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
 --- !u!1 &1475360869
 GameObject:
   m_ObjectHideFlags: 0
@@ -6233,6 +6183,39 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1572387268}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &1572569224
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1608944216
 GameObject:
   m_ObjectHideFlags: 0
@@ -6506,7 +6489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1693448620
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6567,7 +6549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &1693448624
@@ -6662,7 +6644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1715806969
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6723,7 +6704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 0
 --- !u!23 &1715806973
@@ -6818,7 +6799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1732931710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6879,7 +6859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1732931714
@@ -6988,7 +6968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1760807080
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7049,7 +7028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &1760807084
@@ -7144,7 +7123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1765066877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7205,7 +7183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 0
 --- !u!23 &1765066881
@@ -7300,7 +7278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1829892642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7361,7 +7338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &1829892646
@@ -7456,7 +7433,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1837174211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7517,7 +7493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1837174215
@@ -7590,52 +7566,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f82b650bd8d0f42a7cde4af6a94b53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 0}
   sounds:
   - name: ding_sound
     clip: {fileID: 8300000, guid: 2ccc305c9d282fd468ecb15b7ed8e520, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 0.46
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: left
     clip: {fileID: 8300000, guid: 20dd30cb7eba6cf48a4313bc587f9fcb, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: right
     clip: {fileID: 8300000, guid: 6e6232e288293e6408c11261175acf31, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: straight
     clip: {fileID: 8300000, guid: 9f03432386a452b49a484cd36e5f33d7, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: around
     clip: {fileID: 8300000, guid: 6818ffa7170b21944bdd3a4d559383c2, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
 --- !u!4 &1862068795
 Transform:
@@ -7699,7 +7654,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1868432115
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7760,7 +7714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1868432119
@@ -7855,7 +7809,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1921860918
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7916,7 +7869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1921860922
@@ -8093,7 +8046,7 @@ Prefab:
     - target: {fileID: 224281404793231332, guid: 0144786c0dd55724baafb9b18cee12ae,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 658
+      value: 462.5
       objectReference: {fileID: 0}
     - target: {fileID: 224281404793231332, guid: 0144786c0dd55724baafb9b18cee12ae,
         type: 2}
@@ -8325,7 +8278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &1975347868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8386,7 +8338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1975347872
@@ -8812,7 +8764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba146ce2338062d4497160242cfae22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
 --- !u!65 &2113230647
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8873,7 +8824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &2113230651

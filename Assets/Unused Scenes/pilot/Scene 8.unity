@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 1
 --- !u!23 &26192440
@@ -636,7 +636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 0
 --- !u!23 &83382619
@@ -770,7 +770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 3
 --- !u!23 &110696705
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 2
 --- !u!23 &120693861
@@ -1433,7 +1433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 2
 --- !u!23 &221233193
@@ -1767,7 +1767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 0
 --- !u!23 &373740128
@@ -2031,7 +2031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &468729017
 Transform:
   m_ObjectHideFlags: 0
@@ -2378,7 +2378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 1
 --- !u!23 &520776095
@@ -2776,7 +2776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 1
 --- !u!23 &714334957
@@ -3081,108 +3081,7 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &828141708
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 828141709}
-  - component: {fileID: 828141713}
-  - component: {fileID: 828141712}
-  - component: {fileID: 828141714}
-  m_Layer: 0
-  m_Name: Pick Ups
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &828141709
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 828141708}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.08920592, y: -0.70703125, z: 0.49267936}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 191313313}
-  - {fileID: 1500376145}
-  - {fileID: 1749910847}
-  - {fileID: 1561196087}
-  - {fileID: 1608944217}
-  - {fileID: 1168842687}
-  - {fileID: 2004823754}
-  m_Father: {fileID: 605796346}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &828141712
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 828141708}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!64 &828141713
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 828141708}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
---- !u!54 &828141714
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 828141708}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!43 &847210137
+--- !u!43 &811005824
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -3310,6 +3209,107 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!1 &828141708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 828141709}
+  - component: {fileID: 828141713}
+  - component: {fileID: 828141712}
+  - component: {fileID: 828141714}
+  m_Layer: 0
+  m_Name: Pick Ups
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &828141709
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 828141708}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.08920592, y: -0.70703125, z: 0.49267936}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 191313313}
+  - {fileID: 1500376145}
+  - {fileID: 1749910847}
+  - {fileID: 1561196087}
+  - {fileID: 1608944217}
+  - {fileID: 1168842687}
+  - {fileID: 2004823754}
+  m_Father: {fileID: 605796346}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &828141712
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 828141708}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &828141713
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 828141708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
+--- !u!54 &828141714
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 828141708}
+  serializedVersion: 2
+  m_Mass: 5
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &856154579
 GameObject:
   m_ObjectHideFlags: 0
@@ -3600,7 +3600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 3
 --- !u!23 &931277279
@@ -3734,7 +3734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 2
 --- !u!23 &938042295
@@ -3868,7 +3868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 2
 --- !u!23 &944773076
@@ -4002,7 +4002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 3
 --- !u!23 &952433142
@@ -4220,7 +4220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 3
 --- !u!23 &1015367943
@@ -4354,7 +4354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 2
 --- !u!23 &1027204552
@@ -5041,7 +5041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 0
 --- !u!23 &1147183732
@@ -5095,12 +5095,12 @@ Prefab:
     - target: {fileID: 224281404793231332, guid: 0144786c0dd55724baafb9b18cee12ae,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 658
+      value: 462.5
       objectReference: {fileID: 0}
     - target: {fileID: 224281404793231332, guid: 0144786c0dd55724baafb9b18cee12ae,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 344
+      value: 116.5
       objectReference: {fileID: 0}
     - target: {fileID: 224281404793231332, guid: 0144786c0dd55724baafb9b18cee12ae,
         type: 2}
@@ -5742,7 +5742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 2
 --- !u!23 &1245882836
@@ -5786,39 +5786,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1245882829}
   m_Mesh: {fileID: 4300000, guid: fb62028e9547b0e4e9be1e5d68cbe591, type: 3}
---- !u!21 &1250677943
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1251925593
 GameObject:
   m_ObjectHideFlags: 0
@@ -6058,7 +6025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 3
 --- !u!23 &1292191032
@@ -6192,7 +6159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 0
 --- !u!23 &1323345091
@@ -6326,7 +6293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 2
 --- !u!23 &1353433451
@@ -6370,6 +6337,39 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1353433444}
   m_Mesh: {fileID: 4300000, guid: fb62028e9547b0e4e9be1e5d68cbe591, type: 3}
+--- !u!21 &1371550300
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1394753541
 Prefab:
   m_ObjectHideFlags: 0
@@ -6416,7 +6416,7 @@ Prefab:
       objectReference: {fileID: 828141709}
     - target: {fileID: 1690494322096098, guid: 3eea8350497aecf4e9e5692b731946ee, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3eea8350497aecf4e9e5692b731946ee, type: 2}
@@ -7005,7 +7005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 2
 --- !u!23 &1707660957
@@ -7152,7 +7152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 1
 --- !u!23 &1756100300
@@ -7286,7 +7286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 1
 --- !u!23 &1770459551
@@ -7520,7 +7520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 0
 --- !u!23 &1793342601
@@ -7654,7 +7654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 1
 --- !u!23 &1831267872
@@ -7725,52 +7725,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f82b650bd8d0f42a7cde4af6a94b53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 0}
   sounds:
   - name: ding_sound
     clip: {fileID: 8300000, guid: 2ccc305c9d282fd468ecb15b7ed8e520, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 0.46
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: left
     clip: {fileID: 8300000, guid: f28c925c2104c6e4d9f8ff7b35ad6fe1, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: right
     clip: {fileID: 8300000, guid: 470640097bfd59b4ca2210f0c920c89a, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: straight
     clip: {fileID: 8300000, guid: d3f5039d3e10e4744ac48465c91a13c1, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: around
     clip: {fileID: 8300000, guid: 6818ffa7170b21944bdd3a4d559383c2, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
 --- !u!4 &1862068795
 Transform:
@@ -7875,7 +7854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 2
 --- !u!23 &1872313994
@@ -8223,7 +8202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 0
 --- !u!23 &1942650646
@@ -8557,7 +8536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isArrow: 0
-  hasSound: 1
+  isVoice: 0
   isHaptic: 0
   direction: 1
 --- !u!23 &1975838434
@@ -8893,7 +8872,7 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2084744073}
-  m_Mesh: {fileID: 847210137}
+  m_Mesh: {fileID: 811005824}
 --- !u!23 &2084744077
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8909,7 +8888,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 1250677943}
+  - {fileID: 1371550300}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

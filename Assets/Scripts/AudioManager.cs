@@ -8,7 +8,6 @@ public class AudioManager : MonoBehaviour
 {
     // a static reference to the current AudioManager
 	public static AudioManager instance;
-	public AudioMixerGroup mixerGroup;
     // get an array of sounds
 	public Sound[] sounds;
     // when the script instance is loaded..
@@ -34,10 +33,6 @@ public class AudioManager : MonoBehaviour
 			s.source = gameObject.AddComponent<AudioSource>();
             // clip of the AudioSource (clip is the actual recording)
 			s.source.clip = s.clip;
-            // check whether it needs to loop
-			s.source.loop = s.loop;
-
-			s.source.outputAudioMixerGroup = mixerGroup;
 		}
 	}
 
@@ -53,8 +48,8 @@ public class AudioManager : MonoBehaviour
 			return;
 		}
 
-		s.source.volume = s.volume * (1f + UnityEngine.Random.Range(-s.volumeVariance / 2f, s.volumeVariance / 2f));
-		s.source.pitch = s.pitch * (1f + UnityEngine.Random.Range(-s.pitchVariance / 2f, s.pitchVariance / 2f));
+        s.source.volume = s.volume;
+        s.source.pitch = s.pitch;
 
 		s.source.Play();
 	}

@@ -383,7 +383,7 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 65528650}
-  m_Mesh: {fileID: 1451483583}
+  m_Mesh: {fileID: 639175665}
 --- !u!23 &65528654
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -399,7 +399,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 309866200}
+  - {fileID: 1122239080}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -826,7 +826,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 12.76, y: 40, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &224141623
 Rigidbody:
@@ -871,9 +871,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 2
 --- !u!23 &224141626
 MeshRenderer:
@@ -960,7 +960,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 40, y: 10, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &305903835
 Rigidbody:
@@ -1005,9 +1005,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 1
 --- !u!23 &305903838
 MeshRenderer:
@@ -1050,39 +1050,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 305903831}
   m_Mesh: {fileID: 4300000, guid: fb62028e9547b0e4e9be1e5d68cbe591, type: 3}
---- !u!21 &309866200
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &415779392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,7 +1147,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 16, z: 11.02}
+  m_Size: {x: 20, y: 20, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &423370259
 Rigidbody:
@@ -1225,9 +1192,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 3
 --- !u!23 &423370262
 MeshRenderer:
@@ -1302,7 +1269,7 @@ Transform:
   m_LocalScale: {x: 0.2, y: 0.19999997, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 468729017}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 90, y: 270, z: 0}
 --- !u!65 &426104003
 BoxCollider:
@@ -1314,7 +1281,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 40, y: 10, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &426104004
 Rigidbody:
@@ -1359,9 +1326,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 0
 --- !u!23 &426104007
 MeshRenderer:
@@ -1485,7 +1452,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &468729017
 Transform:
   m_ObjectHideFlags: 0
@@ -1506,6 +1473,7 @@ Transform:
   - {fileID: 1952032311}
   - {fileID: 423370256}
   - {fileID: 1733385006}
+  - {fileID: 1320920878}
   - {fileID: 1349799577}
   - {fileID: 1294157145}
   - {fileID: 2134977522}
@@ -2023,7 +1991,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 40, y: 10, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &564084270
 Rigidbody:
@@ -2068,9 +2036,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 1
 --- !u!23 &564084273
 MeshRenderer:
@@ -2126,7 +2094,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4995082312253862, guid: 8ec36bb7ae2aefb43879f75c914262f5, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4995082312253862, guid: 8ec36bb7ae2aefb43879f75c914262f5, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2150,7 +2118,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4995082312253862, guid: 8ec36bb7ae2aefb43879f75c914262f5, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114140071058948340, guid: 8ec36bb7ae2aefb43879f75c914262f5,
         type: 2}
@@ -2200,12 +2168,12 @@ Prefab:
     - target: {fileID: 224281404793231332, guid: 0144786c0dd55724baafb9b18cee12ae,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 658
+      value: 462.5
       objectReference: {fileID: 0}
     - target: {fileID: 224281404793231332, guid: 0144786c0dd55724baafb9b18cee12ae,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 140
+      value: 116.5
       objectReference: {fileID: 0}
     - target: {fileID: 224281404793231332, guid: 0144786c0dd55724baafb9b18cee12ae,
         type: 2}
@@ -2347,6 +2315,134 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &639175665
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 13
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
 --- !u!1 &662374975
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,7 +2521,7 @@ Transform:
   m_LocalScale: {x: 0.19999997, y: 0.20000008, z: 0.2000001}
   m_Children: []
   m_Father: {fileID: 468729017}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!65 &668917842
 BoxCollider:
@@ -2437,7 +2533,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 12.76, y: 40, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &668917843
 Rigidbody:
@@ -2482,9 +2578,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 2
 --- !u!23 &668917846
 MeshRenderer:
@@ -2559,7 +2655,7 @@ Transform:
   m_LocalScale: {x: 0.2, y: 0.19999997, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 468729017}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!65 &710810500
 BoxCollider:
@@ -2571,7 +2667,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 40, y: 10, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &710810501
 Rigidbody:
@@ -2616,9 +2712,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 1
 --- !u!23 &710810504
 MeshRenderer:
@@ -3169,7 +3265,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 40, y: 10, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &944773073
 Rigidbody:
@@ -3214,9 +3310,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 1
 --- !u!23 &944773076
 MeshRenderer:
@@ -3611,6 +3707,39 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1102222301}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &1122239080
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1127942908
 GameObject:
   m_ObjectHideFlags: 0
@@ -4465,7 +4594,7 @@ Transform:
   m_LocalScale: {x: 0.2, y: 0.19999997, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 468729017}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!65 &1294157147
 BoxCollider:
@@ -4477,7 +4606,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 40, y: 10, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &1294157148
 Rigidbody:
@@ -4522,9 +4651,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 0
 --- !u!23 &1294157151
 MeshRenderer:
@@ -4567,6 +4696,140 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294157144}
   m_Mesh: {fileID: 4300000, guid: fb62028e9547b0e4e9be1e5d68cbe591, type: 3}
+--- !u!1 &1320920877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1320920878}
+  - component: {fileID: 1320920884}
+  - component: {fileID: 1320920883}
+  - component: {fileID: 1320920882}
+  - component: {fileID: 1320920881}
+  - component: {fileID: 1320920880}
+  - component: {fileID: 1320920879}
+  m_Layer: 0
+  m_Name: Arrow (23)
+  m_TagString: Arrow
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1320920878
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320920877}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: -40.1, y: 0, z: 14.1}
+  m_LocalScale: {x: 0.2, y: 0.19999997, z: 0.19999999}
+  m_Children: []
+  m_Father: {fileID: 468729017}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!65 &1320920879
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320920877}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.76, y: 40, z: 11.02}
+  m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
+--- !u!54 &1320920880
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320920877}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!95 &1320920881
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320920877}
+  m_Enabled: 0
+  m_Avatar: {fileID: 9000000, guid: fb62028e9547b0e4e9be1e5d68cbe591, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1320920882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320920877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
+  direction: 1
+--- !u!23 &1320920883
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320920877}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1320920884
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320920877}
+  m_Mesh: {fileID: 4300000, guid: fb62028e9547b0e4e9be1e5d68cbe591, type: 3}
 --- !u!1 &1329102858
 GameObject:
   m_ObjectHideFlags: 0
@@ -4597,8 +4860,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1729500718}
   - {fileID: 586042635}
+  - {fileID: 1729500718}
   m_Father: {fileID: 1129966022}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4693,7 +4956,7 @@ Transform:
   m_LocalScale: {x: 0.2, y: 0.19999997, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 468729017}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!65 &1349799579
 BoxCollider:
@@ -4705,7 +4968,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 12.76, y: 40, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &1349799580
 Rigidbody:
@@ -4750,9 +5013,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 2
 --- !u!23 &1349799583
 MeshRenderer:
@@ -4839,7 +5102,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 40, y: 10, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &1358203988
 Rigidbody:
@@ -4884,9 +5147,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 0
 --- !u!23 &1358203991
 MeshRenderer:
@@ -4973,7 +5236,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 12.76, y: 40, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &1381987260
 Rigidbody:
@@ -5018,9 +5281,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 2
 --- !u!23 &1381987263
 MeshRenderer:
@@ -5063,134 +5326,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1381987256}
   m_Mesh: {fileID: 4300000, guid: fb62028e9547b0e4e9be1e5d68cbe591, type: 3}
---- !u!43 &1451483583
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0.01, z: 0}
-      m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 13
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 288
-    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0.01, z: 0}
-    m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
 --- !u!1 &1478545295
 GameObject:
   m_ObjectHideFlags: 0
@@ -5235,7 +5370,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 12.76, y: 40, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &1478545299
 Rigidbody:
@@ -5280,9 +5415,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 2
 --- !u!23 &1478545302
 MeshRenderer:
@@ -5370,7 +5505,7 @@ Transform:
   m_LocalScale: {x: 0.2, y: 0.19999997, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 468729017}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
 --- !u!65 &1528815613
 BoxCollider:
@@ -5382,7 +5517,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 40, y: 10, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &1528815614
 Rigidbody:
@@ -5427,9 +5562,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 0
 --- !u!23 &1528815617
 MeshRenderer:
@@ -5833,7 +5968,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4269527026307782, guid: 3eea8350497aecf4e9e5692b731946ee, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114934763594080600, guid: 3eea8350497aecf4e9e5692b731946ee,
         type: 2}
@@ -5896,7 +6031,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 12.76, y: 40, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &1733385009
 Rigidbody:
@@ -5941,9 +6076,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 0
 --- !u!23 &1733385012
 MeshRenderer:
@@ -6182,7 +6317,7 @@ Transform:
   m_LocalScale: {x: 0.19999997, y: 0.20000008, z: 0.2000001}
   m_Children: []
   m_Father: {fileID: 468729017}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 90, y: 270, z: 0}
 --- !u!65 &1840175756
 BoxCollider:
@@ -6194,7 +6329,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 40, y: 10, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &1840175757
 Rigidbody:
@@ -6239,9 +6374,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 0
 --- !u!23 &1840175760
 MeshRenderer:
@@ -6311,52 +6446,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f82b650bd8d0f42a7cde4af6a94b53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 0}
   sounds:
   - name: ding_sound
     clip: {fileID: 8300000, guid: 2ccc305c9d282fd468ecb15b7ed8e520, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 0.46
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: left
     clip: {fileID: 8300000, guid: f28c925c2104c6e4d9f8ff7b35ad6fe1, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: right
     clip: {fileID: 8300000, guid: 470640097bfd59b4ca2210f0c920c89a, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: straight
     clip: {fileID: 8300000, guid: d3f5039d3e10e4744ac48465c91a13c1, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: around
     clip: {fileID: 8300000, guid: 6818ffa7170b21944bdd3a4d559383c2, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
 --- !u!4 &1862068795
 Transform:
@@ -6621,7 +6735,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 40, y: 10, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &1952032314
 Rigidbody:
@@ -6666,9 +6780,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 1
 --- !u!23 &1952032317
 MeshRenderer:
@@ -6919,7 +7033,7 @@ Transform:
   m_LocalScale: {x: 0.19999997, y: 0.20000008, z: 0.2000001}
   m_Children: []
   m_Father: {fileID: 468729017}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!65 &2134977524
 BoxCollider:
@@ -6931,7 +7045,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.76, y: 10, z: 11.02}
+  m_Size: {x: 12.76, y: 40, z: 11.02}
   m_Center: {x: -0.0000038146973, y: -0.0000009536743, z: 0.3950533}
 --- !u!54 &2134977525
 Rigidbody:
@@ -6976,9 +7090,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 1
-  isHaptic: 0
+  isArrow: 0
+  isVoice: 1
+  isHaptic: 1
   direction: 2
 --- !u!23 &2134977528
 MeshRenderer:

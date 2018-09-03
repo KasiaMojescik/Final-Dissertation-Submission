@@ -2,7 +2,6 @@
 
 public class DirectionFinder : MonoBehaviour {
 
-    [SerializeField]
     // this field is used in Unity to specify where the arrow should be pointing at
     public Transform destination;
 	

@@ -432,8 +432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &65798901
@@ -693,8 +693,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &106631430
@@ -1772,8 +1772,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &503563452
@@ -2139,8 +2139,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 0
 --- !u!23 &534566026
@@ -2246,7 +2246,7 @@ Prefab:
     - target: {fileID: 224281404793231332, guid: 0144786c0dd55724baafb9b18cee12ae,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 658
+      value: 462.5
       objectReference: {fileID: 0}
     - target: {fileID: 224281404793231332, guid: 0144786c0dd55724baafb9b18cee12ae,
         type: 2}
@@ -2468,8 +2468,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &741960688
@@ -2744,8 +2744,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 0
 --- !u!23 &806690927
@@ -3005,8 +3005,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &829802800
@@ -3176,8 +3176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 0
 --- !u!23 &926688105
@@ -3331,8 +3331,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &944773076
@@ -3624,8 +3624,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &1025446147
@@ -3779,8 +3779,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &1025613325
@@ -4065,8 +4065,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 0
 --- !u!23 &1087483496
@@ -4797,39 +4797,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1168842688}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &1170746072
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1187481937
 GameObject:
   m_ObjectHideFlags: 0
@@ -5256,8 +5223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1295110128
@@ -5411,8 +5378,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1308623506
@@ -5529,7 +5496,7 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1365707760}
-  m_Mesh: {fileID: 1809612342}
+  m_Mesh: {fileID: 1800349699}
 --- !u!23 &1365707764
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5545,7 +5512,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 1170746072}
+  - {fileID: 1396450482}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5689,8 +5656,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &1366785689
@@ -5775,6 +5742,39 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1388385269}
   m_Enabled: 1
+--- !u!21 &1396450482
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1403983734
 GameObject:
   m_ObjectHideFlags: 0
@@ -5883,8 +5883,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &1403983741
@@ -6038,8 +6038,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &1412157787
@@ -6348,8 +6348,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1490132307
@@ -6517,8 +6517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1548818030
@@ -6686,8 +6686,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 1
 --- !u!23 &1565873595
@@ -7220,7 +7220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: -1
   origin: {fileID: 0}
---- !u!43 &1809612342
+--- !u!43 &1800349699
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -7456,8 +7456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 0
 --- !u!23 &1823815569
@@ -7530,52 +7530,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f82b650bd8d0f42a7cde4af6a94b53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 0}
   sounds:
   - name: ding_sound
     clip: {fileID: 8300000, guid: 2ccc305c9d282fd468ecb15b7ed8e520, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 0.46
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: left
     clip: {fileID: 8300000, guid: 20dd30cb7eba6cf48a4313bc587f9fcb, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: right
     clip: {fileID: 8300000, guid: 6e6232e288293e6408c11261175acf31, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: straight
     clip: {fileID: 8300000, guid: 9f03432386a452b49a484cd36e5f33d7, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: around
     clip: {fileID: 8300000, guid: 6818ffa7170b21944bdd3a4d559383c2, type: 3}
     volume: 1
-    volumeVariance: 0
     pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
     source: {fileID: 0}
 --- !u!4 &1862068795
 Transform:
@@ -7698,8 +7677,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &1897895283
@@ -8237,8 +8216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d1d97fefe74c869a63982a00c77d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isArrow: 1
-  hasSound: 0
+  isArrow: 0
+  isVoice: 1
   isHaptic: 0
   direction: 2
 --- !u!23 &2029579524

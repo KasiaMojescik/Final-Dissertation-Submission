@@ -1,6 +1,6 @@
-# Final-Dissertation-Submission
+# Navigation in Virtual Reality: Comparison of Visual, Auditory and Haptic cues
 
-A Master's Thesis submitted for the degree of Master of Science in Software Development at the University of Glasgow.
+A dissertation presented in part fulfillment of the requirements of the Degree of Master of Science in Software Development at the University of Glasgow.
 
 This project was set up to work with HTC Vive headset using Unity (version 2018.4.32f1). 
 
